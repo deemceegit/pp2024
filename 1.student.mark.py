@@ -60,14 +60,14 @@ def showMarks(students, marks):
                 print("ID: {}, Mark: TBD".format(student["id"]))
 marks = {}
 while (True):
-    print("ENTER YOUR CHOICE")
-    print("0. EXIT PROGRAM")
-    print("1. INPUT STUDENTS")
-    print("2. INPUT COURSES")
-    print("3. LIST COURSES")
-    print("4. LIST STUDENTS")
-    print("5. INPUT MARK")
-    print("6. SHOW MARK\n")
+    print("CHOOSE: ")
+    print("0. Exit now")
+    print("1. Input students")
+    print("2. Input courses")
+    print("3. List courses")
+    print("4. List students")
+    print("5. Input mark")
+    print("6. Show mark\n")
 
     choice = int(input())
     if (choice == 0):
